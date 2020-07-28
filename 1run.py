@@ -1,8 +1,8 @@
 import os
 
 f=open('run_manim.bat', 'w')
-classname='geometry'
-py_flie_name='geometry.py'
+classname='mylatex'
+py_flie_name='latextest.py'
 low='-pl' #480p
 middle='-pm' #720p
 best=' ' #1440p

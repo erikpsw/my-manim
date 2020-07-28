@@ -1,1 +1,1 @@
-python manim.py geometry.py geometry -pl
+python manim.py latextest.py mylatex -pl
