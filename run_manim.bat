@@ -1,0 +1,1 @@
+python manim.py geometry.py geometry -pl
