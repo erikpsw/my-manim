@@ -1,1 +1,1 @@
-python manim.py latextest.py mylatex -pl
+python manim.py Efield.py Efield -pl
