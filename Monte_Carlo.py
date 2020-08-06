@@ -53,7 +53,7 @@ class Monte_Carlo(GraphScene):
         self.play(ShowCreation(t2))
         In=0
         count=0
-        for i in range(1,1000):
+        for i in range(1,800):
             count=count+1
             r1=random.uniform(-4,4)
             r2=random.uniform(-4,4)
@@ -63,12 +63,11 @@ class Monte_Carlo(GraphScene):
             else:
                 dot1 = SmallDot(axes.coords_to_point(r1,r2))
             self.play(ShowCreation(dot1), run_time=0.005)
-            if(count==60):
+            if(count==50):
                 count=0
                 t3=TexMobject("S_{current} ="+r"\frac{"+str(In)+"}{"+str(i)+"}"+r"\times "+str(64)+"="+str(64*round(In/i,2)) )
                 t3.shift(2.5*UP+3.5*RIGHT)
                 self.play(Transform(t2,t3))
-        self.clear()
         self.wait(2)
 
 

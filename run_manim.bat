@@ -1,1 +1,1 @@
-python manim.py Monte_Carlo.py Monte_Carlo -pm
+python manim.py square_root.py square_root -pl
