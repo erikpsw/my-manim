@@ -11,6 +11,7 @@ for i in range(1, 1000):
         continue
     arr.append(64 * round(yes / i, 2))
 class Monte_Carlo(GraphScene):
+
     def construct(self):
         text=Text("蒙特卡洛方法",font='庞门正道标题体',color="#39C5BB")
         text.set_width(11)
@@ -65,7 +66,7 @@ class Monte_Carlo(GraphScene):
             if(count==60):
                 count=0
                 t3=TexMobject("S_{current} ="+r"\frac{"+str(In)+"}{"+str(i)+"}"+r"\times "+str(64)+"="+str(64*round(In/i,2)) )
-                t3.shift(2.5*UP+3*RIGHT)
+                t3.shift(2.5*UP+3.5*RIGHT)
                 self.play(Transform(t2,t3))
         self.clear()
         self.wait(2)
