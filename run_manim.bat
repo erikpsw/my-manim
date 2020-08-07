@@ -1,1 +1,1 @@
-python manim.py square_root.py square_root -pl
+python manim.py square_root.py square_root -pm
