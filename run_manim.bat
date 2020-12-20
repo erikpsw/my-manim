@@ -1,1 +1,1 @@
-python manim.py triangle.py triangle -pm
+python manim.py MathematicalInduction.py MathematicalInduction --high_quality -p
