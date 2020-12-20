@@ -1,8 +1,8 @@
 import os
 
 f=open('run_manim.bat', 'w')
-classname='MathematicalInduction'
-py_flie_name='MathematicalInduction.py'
+classname='parametric'
+py_flie_name='parametric.py'
 low='-pl' #480p
 middle='-pm' #720p
 best=' ' #1440p

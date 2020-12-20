@@ -1,1 +1,1 @@
-python manim.py MathematicalInduction.py MathematicalInduction --high_quality -p
+python manim.py parametric.py parametric --high_quality -p

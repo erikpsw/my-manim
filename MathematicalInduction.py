@@ -54,3 +54,4 @@ class MathematicalInduction(Scene):
         self.play(Write(t12))
         self.wait(2)
 
+
