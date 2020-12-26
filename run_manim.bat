@@ -1,1 +1,1 @@
-python manim.py parametric.py parametric --high_quality -p
+python manim.py hello_updater.py hello_updater -pm
