@@ -35,6 +35,7 @@ class hello_updater(Scene):
             y_min=-3, y_max=3
         ).add_coordinates()
         self.play(ReplacementTransform(A,A2))
+        self.play(Uncreate(temp))
         self.wait()
         cir1=Circle(radius=1,color=BLUE)
         vec1=Vector(RIGHT,color=YELLOW)
@@ -68,6 +69,24 @@ class hello_updater(Scene):
         path.clear_updaters()
         dec.clear_updaters()
         self.wait()
+        G3=VGroup(dec,path,G1,G2)
+        self.play(Uncreate(G3))
+        A3 = Axes(
+            x_min=0, x_max=12,
+            y_min=-3, y_max=3
+        ).add_coordinates().shift(5*LEFT)
+        self.play(ReplacementTransform(A2,A3))
+        cir1 = Circle(radius=1, color=BLUE).shift(UP)
+        vec1 = Vector(DOWN, color=YELLOW).shift(UP)
+        G1 = VGroup(cir1, vec1).shift(5*LEFT)
+        self.play(Write(G1))
+        def anim1(obj,dt):
+            obj.shift(0.03*RIGHT)
+            obj.rotate(about_point=cir1.get_center(),angle=-dt)
+        G1.add_updater(anim1)
+        path = TracedPath(vec1.get_end)
+        self.add(path)
+        self.wait(6)
         self.clear()
         t11 = TextMobject("Thanks", font='Times New Roman').scale(3)
         t12 = TextMobject("2020年12月26日", font='华文中宋').next_to(t11, DOWN).shift(RIGHT)
