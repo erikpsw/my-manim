@@ -1,8 +1,8 @@
 import os
 
 f=open('run_manim.bat', 'w')
-classname='hello_updater'
-py_flie_name='hello_updater.py'
+classname='language'
+py_flie_name='language.py'
 low='-pl' #480p
 middle='-pm' #720p
 best=' ' #1440p

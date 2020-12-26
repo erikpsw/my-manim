@@ -1,1 +1,1 @@
-python manim.py hello_updater.py hello_updater --high_quality -p
+python manim.py language.py language --high_quality -p
