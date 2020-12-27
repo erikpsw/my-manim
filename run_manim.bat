@@ -1,1 +1,1 @@
-python manim.py language.py language --high_quality -p
+python manim.py transform.py transform -pm
