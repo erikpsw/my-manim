@@ -1,8 +1,8 @@
 import os
 
 f=open('run_manim.bat', 'w')
-classname='transform'
-py_flie_name='transform.py'
+classname='symmetry'
+py_flie_name='symmetry.py'
 low='-pl' #480p
 middle='-pm' #720p
 best=' ' #1440p

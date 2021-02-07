@@ -1,1 +1,1 @@
-python manim.py transform.py transform -pm
+python manim.py symmetry.py symmetry -pm
