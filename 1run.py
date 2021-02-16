@@ -1,8 +1,8 @@
 import os
 
 f=open('run_manim.bat', 'w')
-classname='symmetry'
-py_flie_name='symmetry.py'
+classname='Transformation'
+py_flie_name='Oblique_projection.py'
 low='-pl' #480p
 middle='-pm' #720p
 best=' ' #1440p

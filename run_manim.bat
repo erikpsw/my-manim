@@ -1,1 +1,1 @@
-python manim.py symmetry.py symmetry -pm
+python manim.py Oblique_projection.py Transformation -pm

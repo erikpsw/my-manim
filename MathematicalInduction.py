@@ -2,6 +2,7 @@ from manimlib.imports import *
 
 class MathematicalInduction(Scene):
     def construct(self):
+
         t1=TextMobject("Mathematical  Induction",font='Times New Roman',color="#39C5BB").scale(2.3).shift(UP)
         self.play(Write(t1))
         self.wait(1)
