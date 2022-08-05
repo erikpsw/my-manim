@@ -1,1 +1,1 @@
-python manim.py Oblique_projection.py Oblique_projection -pl
+manimgl hello.py SquareToCircle -os

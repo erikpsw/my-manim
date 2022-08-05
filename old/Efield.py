@@ -1,4 +1,4 @@
-from manimlib.imports import *
+from manimlib import *
 
 class Efield(Scene):
     def construct(self):

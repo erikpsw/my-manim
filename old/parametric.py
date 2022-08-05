@@ -1,4 +1,4 @@
-from manimlib.imports import *
+from manimlib import *
 import math
 
 class parametric(Scene):
