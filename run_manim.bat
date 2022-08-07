@@ -1,1 +1,1 @@
-manimgl hello.py SquareToCircle -os
+manimgl Euler's_method.py myclass -o  

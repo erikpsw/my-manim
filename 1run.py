@@ -1,15 +1,22 @@
 import os
 f=open('run_manim.bat', 'w')
 
-py_flie_name='hello'
+py_flie_name="Euler's_method"
 
-classname='SquareToCircle'
+classname='myclass'
 
-low='-pl' #480p
+is_save=1
+
+low='-l' #480p
 middle='-pm' #720p
 best=' ' #1440p
-high='--high_quality -p'
-str01='manimgl'+" "+py_flie_name+".py "+classname
+high='--hd'#1080p
+
+quality=best
+if(is_save==0):
+    str01='manimgl'+" "+py_flie_name+".py "+classname+quality
+if(is_save==1):
+    str01='manimgl'+" "+py_flie_name+".py "+classname+' -o '+quality 
 f.write(str01)
 f.close()
 os.system('run_manim.bat')
