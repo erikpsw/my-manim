@@ -12,7 +12,6 @@ class myclass(Scene):
         self.play(Uncreate(name))
         self.play(Uncreate(title))
         d=Dot().shift(2*LEFT+0.5*DOWN)
-        d.save_state()
         d.v=np.array([0,1,0])
         d.B=np.array([0,0,1])
         t=Title("Explict Euler's Method")

@@ -1,1 +1,1 @@
-manimgl Euler's_method.py myclass -o  
+manimgl magnetic_field2.py myclass -o  

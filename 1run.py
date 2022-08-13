@@ -1,7 +1,7 @@
 import os
 f=open('run_manim.bat', 'w')
 
-py_flie_name="Euler's_method"
+py_flie_name="magnetic_field2"
 
 classname='myclass'
 
